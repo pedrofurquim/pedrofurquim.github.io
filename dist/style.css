@@ -553,13 +553,13 @@ button:hover::before,
 .feature__icon {
   margin-top: -77px;
   margin-bottom: -33px;
-  scale: 50%;
+  transform: scale(65%);
 }
 @media (min-width: 64em) {
   .feature__icon {
     margin-bottom: 2.75rem;
     position: inherit;
-    scale: 65%;
+    transform: scale(150%);
     margin-top: -49px;
   }
 }
