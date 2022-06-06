@@ -926,7 +926,7 @@ button:hover::before,
 
 .modal__artigo--autor {
   object-fit: contain;
-  width: 186%;
+  width: 100%;
   text-align: left;
   bottom: 41%;
   height: 11%;
@@ -940,7 +940,7 @@ button:hover::before,
 @media (min-width: 64em) {
   .modal__artigo--autor {
     object-fit: contain;
-    width: 186%;
+    width: 100%;
     text-align: left;
     bottom: 41%;
     height: 11%;
