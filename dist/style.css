@@ -845,7 +845,7 @@ button:hover::before,
 .modal__close {
   color: #2d314d;
   font-size: 50px;
-  position: absolute;
+  position: absolute !important;
   top: 0em;
   right: .5em;
 }
