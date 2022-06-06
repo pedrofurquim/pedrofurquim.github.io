@@ -893,23 +893,25 @@ button:hover::before,
   font-size: 20px;
   margin-top: 90px;
   text-align: justify;
+  margin-bottom: 10%;
 }
 @media (min-width: 64em) {
   .modal__text {
     font-size: 23px;
     text-align: justify;
-    padding-top: 25%;
+    padding-top: 0%;
+    margin-bottom: 5%;
   }
 }
 
 .modal__text1 {
-  margin-top: -57px;
+  padding-top: 0%;
   font-size: 20px;
   text-align: justify;
 }
 @media (min-width: 64em) {
   .modal__text1 {
-    margin-top: -40px;
+    padding-top: 0%;
     font-size: 23px;
     text-align: justify;
   }
