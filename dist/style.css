@@ -92,6 +92,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  max-width: 100%;
   height: 100%;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -398,11 +399,14 @@ button:hover::before,
   padding: 0.625rem;
   color: #2d314d;
   text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
  
 }
 .header__links a {
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: 'Montserrat';
   color: #9698a6;
   transition: color 300ms ease-in-out;
 }
@@ -775,7 +779,7 @@ button:hover::before,
 .modal {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100vw;
-  min-height: 587vh;         
+  min-height: 992vh;     
   position: absolute;
   top: 0;
   left: 0;
@@ -887,7 +891,7 @@ button:hover::before,
 
 .modal__text {
   font-size: 20px;
-  margin-top: 49px;
+  margin-top: 90px;
   text-align: justify;
 }
 @media (min-width: 64em) {
@@ -983,7 +987,7 @@ button:hover::before,
 
 .modal__heading {
   object-fit: contain;
-  width: 90%;
+  width: 80%;
   bottom: 54%;
   text-align: center;
   height: 19%;
@@ -1256,7 +1260,7 @@ button:hover::before,
   color: #2d314d;
 }
 #ft-form fieldset:first-child {
-  margin-top: 0
+  margin-top: 30px;
 }
 #ft-form fieldset > * {
   display: block;
