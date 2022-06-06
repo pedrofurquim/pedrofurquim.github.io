@@ -558,7 +558,7 @@ button:hover::before,
 .feature__icon {
   margin-top: -77px;
   margin-bottom: -33px;
-  transform: scale(65%);
+  transform: scale(50%);
 }
 @media (min-width: 64em) {
   .feature__icon {
