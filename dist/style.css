@@ -889,22 +889,26 @@ button:hover::before,
 .modal__text {
   font-size: 20px;
   margin-top: 49px;
+  text-align: justify;
 }
 @media (min-width: 64em) {
   .modal__text {
     font-size: 23px;
-    margin-top: 118px;
+    text-align: justify;
+    padding-top: 25%;
   }
 }
 
 .modal__text1 {
   margin-top: -57px;
   font-size: 20px;
+  text-align: justify;
 }
 @media (min-width: 64em) {
   .modal__text1 {
     margin-top: -40px;
-   font-size: 23px;
+    font-size: 23px;
+    text-align: justify;
   }
 }
 
