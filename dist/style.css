@@ -559,7 +559,7 @@ button:hover::before,
   .feature__icon {
     margin-bottom: 2.75rem;
     position: inherit;
-    transform: scale(150%);
+    transform: scale(75%);
     margin-top: -49px;
   }
 }
