@@ -309,6 +309,8 @@ button,
   font-size: 1.2rem;
   transition: opacity 300ms ease-in-out;
   overflow: hidden;
+  font-family: 'Montserrat';
+  
 }
 button::before,
 .button::before {
