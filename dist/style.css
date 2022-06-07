@@ -81,18 +81,24 @@ html {
 }
 
 body {
+   margin: 0;
   font-family: "Public Sans", sans-serif;
   font-size: 0.5rem;
   font-weight: 300;
   color: #9698a6;
+  overflow-x: hidden;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   letter-spacing: 0.06rem;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 100%;
 }
 @media (min-width: 64em) {
   body {
     font-size: 1.125rem;
-    line-height: calc(1 + 0.8 / var(--font-body-scale));
     letter-spacing: 0.06rem;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
   }
 }
 body.noscroll {
